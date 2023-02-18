@@ -9,7 +9,7 @@
 <body>
     <?php 
     // 2 digit terakhir NPM
-    $a = "109";
+    $a = "09";
     // operasi matematika
     $b = "5";
     $c = "2";
