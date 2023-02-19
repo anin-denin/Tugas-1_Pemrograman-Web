@@ -8,30 +8,27 @@
 </head>
 <body>
     <?php 
-    // 2 digit terakhir NPM
-    $a = "09";
+    // variable npm
+    $angka = 9;
+    echo "Aku adalah angka <b>$angka</b><br>";
+    
     // operasi matematika
-    $b = "5";
-    $c = "2";
-    $d = "75";
-    $e = "20";
 
-    echo "Aku adalah angka <b>$a</b><br>";
     // dikali 5
-    $x = $a*$b;
-    echo "Jika aku dikali $b, maka aku sekarang menjadi <b>$x</b><br>";
+    $angka = $angka * 5;
+    echo "Jika aku dikali 5, maka aku sekarang menjadi <b>$angka</b><br>";
 
     // dibagi 2
-    $y = $a/$c;
-    echo "Jika aku dibagi $c, maka aku sekarang menjadi <b>$y</b><br>";
+    $angka = $angka / 2;
+    echo "Jika aku dibagi 2, maka aku sekarang menjadi <b>$angka</b><br>";
 
     // ditambah 75
-    $z = $a+$d;
-    echo "Jika aku ditambah $d, maka aku sekarang menjadi <b>$z</b><br>";
+    $angka = $angka + 75;
+    echo "Jika aku ditambah 75, maka aku sekarang menjadi <b>$angka</b><br>";
 
     // dikurang 20
-    $r = $a-$e;
-    echo "Jika aku dikurang $e, maka aku sekarang menjadi <b>$r</b>";
-     ?>
+    $angka = $angka - 20;
+    echo "Jika aku dikurang 20, maka aku sekarang menjadi <b>$angka</b>";
+    ?>
 </body>
 </html>
